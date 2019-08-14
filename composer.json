@@ -1,9 +1,9 @@
 {
     "name": "OpenMageModuleFostering/Zero1_ThemeCarParts",
     "type": "magento-module",
-    "license": "OSL-v3.0",
+    "license": "GPL-v3.0",
     "homepage": "",
-    "description": "Zero1 Car Parts Theme",
+    "description": "Zero1 CarParts Theme",
     "authors": [
     {
         "name": "Arron Moss",

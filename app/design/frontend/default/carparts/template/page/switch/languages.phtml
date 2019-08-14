@@ -29,7 +29,7 @@
     <span><?php echo $this->__('Your Language:') ?></span>
     <?php foreach ($this->getStores() as $_lang): ?>
         <?php $_selected = ($_lang->getId() == $this->getCurrentStoreId()) ? ' class="selected"' : '' ?>
-        <a href="<?php echo $_lang->getCurrentUrl() ?>" style="background-image:url('<?php echo $this->getSkinUrl('images/flags/'.$_lang->getCode().'.gif') ?>'); background-repeat: no-repeat;"<?php echo $_selected ?>>&nbsp;<?php //echo $this->htmlEscape($_lang->getName()) ?></a>
+        <a href="<?php echo $_lang->getCurrentUrl() ?>" style="background-image:url('<?php echo $this->getSkinUrl().'images/flags/'.strtolower(Mage::getStoreConfig('general/country/default', $_lang->getId())).'.gif' ?>'); background-repeat: no-repeat;"<?php echo $_selected ?>>&nbsp;<?php //echo $this->htmlEscape($_lang->getName()) ?></a>
     <?php endforeach; ?>
 </div>
 <?php endif; ?>

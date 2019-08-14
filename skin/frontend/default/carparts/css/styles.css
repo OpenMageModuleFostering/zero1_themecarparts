@@ -1287,8 +1287,6 @@ tr.summary-details-excluded { font-style:italic; }
 
 .footer .footer-left{float: left; width: 50%;}
 .footer .footer-right{float: right; width: 50%;}
-.footer .footer-right .zero1 a strong {position: absolute;top: -999em;left: -999em;width: 0;height: 0;font-size: 0;line-height: 0;text-indent: -999em;overflow: hidden;}
-
 
 .footer-container { padding:0;position:absolute; left:0; bottom:0; width:100%; height:200px; background: #000; border-top: 2px solid #555;} 
 .bottom-container { text-align:center; }
